@@ -1,0 +1,72 @@
+.header {
+    margin: 0;
+}
+
+.header > h1 {
+    text-align: center;
+}
+
+.wrapper {
+    background-color: gray;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    height: 700px;
+    width: 700px;
+    margin: 70px auto;
+}
+
+.card-header {
+    height: 10%;
+}
+
+.header-title {
+    border: red dashed;
+    width: 78%;
+    height: 100%;
+    float: left;
+}
+
+.header-title > p {
+    margin: 0;
+    padding: 20px 0 0 20px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.header-date {
+    border: blue dashed;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.header-date > p {
+    margin: 0;
+    padding: 20px 0 0 40px;
+    font-size: x-large;
+    color: rgb(170, 170, 170);
+}
+
+
+.card-img {
+    height: 60%;
+}
+
+.card-img > img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-body {
+    height: 30%;
+}
+
+.card-body > p {
+    margin: 0;
+    padding: 20px 0 0 20px;
+    font-weight: bold;
+    font-size: x-large;
+}
