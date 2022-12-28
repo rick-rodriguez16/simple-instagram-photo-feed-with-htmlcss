@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+}
+
 .header {
     margin: 0;
 }
@@ -7,14 +13,14 @@
 }
 
 .wrapper {
-    background-color: gray;
+    background-color: lightgray;
     padding: 20px;
 }
 
 .card {
     background-color: white;
-    height: 700px;
-    width: 700px;
+    height: 600px;
+    width: 600px;
     margin: 70px auto;
 }
 
@@ -23,7 +29,6 @@
 }
 
 .header-title {
-    border: red dashed;
     width: 78%;
     height: 100%;
     float: left;
@@ -33,11 +38,11 @@
     margin: 0;
     padding: 20px 0 0 20px;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 25px;
 }
 
 .header-date {
-    border: blue dashed;
+    padding: 0 0 10px 10px;
     width: 20%;
     height: 100%;
     float: left;
@@ -65,8 +70,7 @@
 }
 
 .card-body > p {
-    margin: 0;
+    margin: 20px 30px 0 20px;
     padding: 20px 0 0 20px;
-    font-weight: bold;
     font-size: x-large;
 }
