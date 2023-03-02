@@ -38,7 +38,7 @@ body {
 }
 
 .search-container {
-    margin: 10px 0 0 100px;
+    margin: 5px 0 0 100px;
     height: 100%;
     width: 50%;
     float: left;
@@ -68,7 +68,7 @@ body {
 }
 
 .button-container {
-    margin: 10px 0 0 200px;
+    margin: 5px 0 0 200px;
     height: 100%;
     width: 20%;
     float: left;
