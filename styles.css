@@ -4,13 +4,97 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.header {
+/* NAVIGATION BAR */
+
+.nav-header {
     margin: 0;
+    height: 70px;
 }
 
-.header > h1 {
-    text-align: center;
+.nav-left {
+    height: 100%;
+    width: 15%;
+    float: left;
 }
+
+.fa-instagram {
+    height: 60px;
+    width: 60px;
+    margin: 20px 0 0 20px;
+    float: left;
+}
+
+.nav-header > div > img {
+    height: 60px;
+    width: auto;
+    margin: 8px 0 0 -20px;
+    float: left;
+}
+
+.nav-middle {
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+
+.search-container {
+    margin: 10px 0 0 100px;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.search-container input[type=text] {
+    width: 500px;
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-radius: 50px;
+    float: left;
+    background: #eee 
+}
+  
+.search-container button {
+    float: left;
+    padding: 6px 10px;
+    margin: 8px 0 0 -50px;
+    margin-right: 16px;
+    background: none;
+    font-size: 23px;
+    border: none;
+    cursor: pointer;
+    color: silver;
+}
+
+.button-container {
+    margin: 10px 0 0 200px;
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+.button-container button {
+    width: 200px;
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-radius: 50px;
+    float: left;
+    color: white;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-weight: bold;
+}
+
+.post-plus {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* END NAVIGATION BAR */
 
 .wrapper {
     background-color: lightgray;
